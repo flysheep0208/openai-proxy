@@ -1,4 +1,4 @@
-const OPENAI_API_HOST = "https://api.openai.com/v1/chat/completions";
+const OPENAI_API_HOST = "api.openai.com/v1/chat/completions";
 
 Deno.serve(async (request) => {
   const url = new URL(request.url);
