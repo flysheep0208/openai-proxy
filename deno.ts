@@ -1,5 +1,5 @@
 const OPENAI_API_HOST = "api.openai.com";
-const OPENAI_API_PATH = "/v1/chat/completions";
+const OPENAI_API_PATH = "/v1";
 
 Deno.serve(async (request) => {
   const url = new URL(request.url);
